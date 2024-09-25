@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.62",
+    "@ai-sdk/vue": "^0.0.51",
+    "ai": "^3.4.2",
+    "global-agent": "^3.0.0",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "^3.3.2",
+    "nuxt": "^3.13.0",
+    "undici": "^6.19.8",
+    "vue": "latest",
+    "vue-router": "latest",
+    "zod": "^3.23.8"
+  }
+}
